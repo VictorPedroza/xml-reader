@@ -40,3 +40,6 @@ class Config:
     @property
     def get_backup(self): # Função de retorno da pasta de Backup
         return self._make_dir(self.backup_dir)   
+    
+    def listDir(self, dir):
+        return os.listdir(dir)
