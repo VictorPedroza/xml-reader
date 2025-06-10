@@ -1,5 +1,22 @@
 {
-    "entry": "Entrada",
-    "output": "Saida",
-    "backup": "Backup"
+    "name": "XML Reader",
+    "description": "A simple XML reader that parses and displays XML data.",
+    "version": "1.0.0",
+    "author": {
+        "name": "Victor Pedroza",
+        "email": "victor242206@gmail.com"
+    },
+    "main": "app/main.py",
+    "scripts": {
+        "start": "python app/main.py"
+    },
+    "keywords": ["xml","reader","parser"],
+    "dependencies": [],
+    "foldersName": {
+        "entry": "Entrada",
+        "output": "Saida",
+        "logs": "Logs",
+        "backup": "Backup"
+    }
+
 }
